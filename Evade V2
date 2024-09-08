@@ -247,7 +247,7 @@ local WorkspacePlayers = game:GetService("Workspace").Game.Players
 		MainTab:AddSlider({
 			Name = "Speed",
 			Min = 0,
-			Max = 250,
+			Max = 500,
 			Default = 0,
 			Color = Color3.fromRGB(128, 128, 128),
 			Increment = 1,
@@ -273,7 +273,7 @@ local WorkspacePlayers = game:GetService("Workspace").Game.Players
 		MainTab:AddSlider({
 			Name = "Fov Slider",
 			Min = 1,
-			Max = 120,
+			Max = 550,
 			Default = 70,
 			Color = Color3.fromRGB(128, 128, 128),
 			Increment = 1,
@@ -288,7 +288,7 @@ local WorkspacePlayers = game:GetService("Workspace").Game.Players
 		MainTab:AddSlider({
 			Name = "Jump Power",
 			Min = 0,
-			Max = 120,
+			Max = 500,
 			Default = 3,
 			Color = Color3.fromRGB(128, 128, 128),
 			Increment = 1,
